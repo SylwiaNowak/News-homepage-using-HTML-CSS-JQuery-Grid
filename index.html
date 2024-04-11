@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | News homepage</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="mainHeader">
+      <div class="logoAndNav">
+        <div class="logo">
+          <img src="./assets/images/logo.svg" alt="logo">
+        </div>
+        <nav>          
+
+          <!--<button class="hamburger"></button>
+          <button class="cross"></button>-->
+            
+          <img class="hamburger" src="./assets/images/icon-menu.svg" alt="menu icon"/>
+          <img class="cross" src="./assets/images/icon-menu-close.svg" alt="menu icon close"/>
+
+          <div class="topRightNav">            
+            <ul class="menuSub desktopMenu mobileMenu"><!--mobileMenu-->
+              <li><a href="#">Home</a></li>
+              <li><a href="#">New</a></li>
+              <li><a href="#">Popular</a></li>
+              <li><a href="#">Trending</a></li>
+              <li><a href="#">Categories</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <div class="mainContent">
+      <div class="web3desktop">
+        <img src="./assets/images/image-web-3-desktop.jpg" alt="web desktop">
+      </div>
+
+      <main>
+        <header>
+          <h1>The Bright Future of Web 3.0?</h1>
+        </header>
+        <article>     
+          <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people.
+            But is it really fulfilling its promise?</p>
+          <button>Read more</button>      
+        </article>
+      </main>
+    </div>
+
+    <aside class="sideBar">
+      <h2>New</h2> 
+
+      <h3><a href="#">Hydrogen VS Electric Cars</a></h3>
+      <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+      <hr>
+
+      <h3><a href="#">The Downsides of AI Artistry</a></h3>
+      <p>What are the possible adverse effects of on-demand AI image generation?</p>
+      <hr>
+
+      <h3><a href="#">Is VC Funding Drying Up?</a></h3>
+      <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+    </aside>
+    
+
+    <div class="news news01">
+      <img src="./assets/images/image-retro-pcs.jpg" alt="retro psc image">
+      <h4>01</h4>
+      <h5><a href="#">Reviving Retro PCs</a></h5>
+      <p>What happens when old PCs are given modern upgrades?</p>
+    </div>
+    <div class="news news02">
+      <img src="./assets/images/image-top-laptops.jpg" alt="top laptop image">
+      <h4>02</h4>
+      <h5><a href="#">Top 10 Laptops of 2022</a></h5>
+      <p>Our best picks for various needs and budgets.</p>
+    </div>
+    <div class="news news03">
+      <img src="./assets/images/image-gaming-growth.jpg" alt="gaming growth image">
+      <h4>03</h4>
+      <h5><a href="#">The Growth of Gaming</a></h5>
+      <p>How the pandemic has sparked fresh opportunities.</p>
+    </div>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+
+</body>
+</html>
